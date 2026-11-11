@@ -52,7 +52,7 @@ internal class SentenceBuilder(val isNoteBlock: Boolean, private val startingLoc
         val headerIndices = if (leadingKeyword != null) indexList.drop(1) else indexList
 
         val templateToken = ExpandableTemplateToken(
-            headerIndices.joinToString(separator = " ") { index -> scanned.substring(index.start, index.end) },
+            headerIndices.joinToString(separator = " ") { index -> valueFor(index, scanned.substring(index.start, index.end)) },
             setOf(Expandable),
             name = placeholder,
             expandableTokens = sentences.map { it.tokens }
@@ -65,7 +65,7 @@ internal class SentenceBuilder(val isNoteBlock: Boolean, private val startingLoc
 
     fun beginExpandableValue(location: Location, name: String, style: RenderedValueStyle, headers: List<String>) {
         val (scanned, indices) = scanner.scan(name, isFirstInSentence = false)
-        val template = indices.joinToString(separator = " ") { index -> scanned.substring(index.start, index.end) }
+        val template = indices.joinToString(separator = " ") { index -> valueFor(index, scanned.substring(index.start, index.end)) }
         val token: TemplateToken = if (style == Tabular) {
             TabularTemplateToken(
                 template = template,

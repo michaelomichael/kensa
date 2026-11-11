@@ -56,7 +56,7 @@
                   "types": [
                     "tk-ex"
                   ],
-                  "value": "the Recorded Lifecycle",
+                  "value": "the recorded lifecycle",
                   "parameterTokens": [],
                   "tokens": [
                     [
@@ -151,7 +151,7 @@
                     "tk-ex",
                     "tk-tab"
                   ],
-                  "value": "the Stored Rates",
+                  "value": "the stored rates",
                   "parameterTokens": [],
                   "tokens": [
                     {

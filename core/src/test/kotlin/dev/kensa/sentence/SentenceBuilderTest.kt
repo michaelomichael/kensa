@@ -23,7 +23,7 @@ internal class SentenceBuilderTest {
         builder.finishExpandable()
 
         val token = builder.build().tokens.filterIsInstance<ExpandableValueTemplateToken>().single()
-        token.template shouldBe "the Observed Lifecycle"
+        token.template shouldBe "the observed lifecycle"
         token.name shouldBe "theObservedLifecycle"
     }
 
@@ -34,7 +34,7 @@ internal class SentenceBuilderTest {
         builder.finishExpandable()
 
         val token = builder.build().tokens.filterIsInstance<TabularTemplateToken>().single()
-        token.template shouldBe "the Quoted Rates"
+        token.template shouldBe "the quoted rates"
         token.name shouldBe "theQuotedRates"
         token.headers shouldBe listOf("Pair", "Rate")
     }
@@ -50,7 +50,7 @@ internal class SentenceBuilderTest {
         tokens[0].template shouldBe "Then"
         val expandable = tokens[1].shouldBeInstanceOf<ExpandableTemplateToken>()
         expandable.types shouldContain Expandable
-        expandable.template shouldBe "All The Verifications Are Correct"
+        expandable.template shouldBe "all the verifications are correct"
         expandable.name shouldBe "thenAllTheVerificationsAreCorrect"
     }
 
@@ -63,7 +63,7 @@ internal class SentenceBuilderTest {
         val tokens = builder.build().tokens
         tokens[0].types shouldContain Keyword
         tokens[0].template shouldBe "When"
-        tokens[1].shouldBeInstanceOf<ExpandableTemplateToken>().template shouldBe "The Action Occurs"
+        tokens[1].shouldBeInstanceOf<ExpandableTemplateToken>().template shouldBe "the action occurs"
     }
 
     @Test
@@ -73,7 +73,7 @@ internal class SentenceBuilderTest {
         builder.finishExpandable()
 
         val tokens = builder.build().tokens
-        tokens[0].shouldBeInstanceOf<ExpandableTemplateToken>().template shouldBe "some Action Occurs"
+        tokens[0].shouldBeInstanceOf<ExpandableTemplateToken>().template shouldBe "some action occurs"
     }
 
     @Test
@@ -131,6 +131,6 @@ internal class SentenceBuilderTest {
 
         val tokens = builder.build().tokens
         val expandable = tokens.filterIsInstance<ExpandableTemplateToken>().single()
-        expandable.template shouldBe "then Something Happens"
+        expandable.template shouldBe "then something happens"
     }
 }

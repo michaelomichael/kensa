@@ -52,7 +52,7 @@
                   "types": [
                     "tk-ex"
                   ],
-                  "value": "some Action No Parameters",
+                  "value": "some action no parameters",
                   "parameterTokens": [],
                   "tokens": [
                     [
@@ -86,7 +86,7 @@
                   "types": [
                     "tk-ex"
                   ],
-                  "value": "some Action With",
+                  "value": "some action with",
                   "parameterTokens": [
                     {
                       "types": [
@@ -215,7 +215,7 @@
                   "types": [
                     "tk-ex"
                   ],
-                  "value": "some Action With 2",
+                  "value": "some action with 2",
                   "parameterTokens": [
                     {
                       "types": [
@@ -360,7 +360,7 @@
                   "types": [
                     "tk-ex"
                   ],
-                  "value": "some Action With 2",
+                  "value": "some action with 2",
                   "parameterTokens": [
                     {
                       "types": [
@@ -469,7 +469,7 @@
                   "types": [
                     "tk-ex"
                   ],
-                  "value": "some Action With 2",
+                  "value": "some action with 2",
                   "parameterTokens": [
                     {
                       "types": [
@@ -695,7 +695,7 @@
                   "types": [
                     "tk-ex"
                   ],
-                  "value": "some Action",
+                  "value": "some action",
                   "parameterTokens": [
                     {
                       "types": [
@@ -736,7 +736,7 @@
                   "types": [
                     "tk-ex"
                   ],
-                  "value": "some Action",
+                  "value": "some action",
                   "parameterTokens": [
                     {
                       "types": [
@@ -872,7 +872,7 @@
                   "types": [
                     "tk-ex"
                   ],
-                  "value": "some Action With 3",
+                  "value": "some action with 3",
                   "parameterTokens": [
                     {
                       "types": [
@@ -1167,7 +1167,7 @@
                   "types": [
                     "tk-ex"
                   ],
-                  "value": "With Lambda",
+                  "value": "with lambda",
                   "parameterTokens": [],
                   "tokens": [
                     [
@@ -1184,7 +1184,7 @@
                   "types": [
                     "tk-ex"
                   ],
-                  "value": "some Action No Parameters",
+                  "value": "some action no parameters",
                   "parameterTokens": [],
                   "tokens": [
                     [
@@ -1270,7 +1270,7 @@
                   "types": [
                     "tk-ex"
                   ],
-                  "value": "Some Prerequisites",
+                  "value": "some prerequisites",
                   "parameterTokens": [],
                   "tokens": [
                     [
@@ -1304,7 +1304,7 @@
                   "types": [
                     "tk-ex"
                   ],
-                  "value": "Some Action With",
+                  "value": "some action with",
                   "parameterTokens": [
                     {
                       "types": [
@@ -1415,7 +1415,7 @@
                   "types": [
                     "tk-ex"
                   ],
-                  "value": "Some Prerequisites",
+                  "value": "some prerequisites",
                   "parameterTokens": [],
                   "tokens": [
                     [
@@ -1449,7 +1449,7 @@
                   "types": [
                     "tk-ex"
                   ],
-                  "value": "some Action With 4",
+                  "value": "some action with 4",
                   "parameterTokens": [
                     {
                       "types": [
@@ -1590,7 +1590,7 @@
                   "types": [
                     "tk-ex"
                   ],
-                  "value": "Some Prerequisites",
+                  "value": "some prerequisites",
                   "parameterTokens": [],
                   "tokens": [
                     [
@@ -1647,7 +1647,7 @@
                   "types": [
                     "tk-ex"
                   ],
-                  "value": "Some Prerequisites",
+                  "value": "some prerequisites",
                   "parameterTokens": [],
                   "tokens": [
                     [
@@ -1710,7 +1710,7 @@
                   "types": [
                     "tk-ex"
                   ],
-                  "value": "some Action With Value Class Parameter",
+                  "value": "some action with value class parameter",
                   "parameterTokens": [
                     {
                       "types": [

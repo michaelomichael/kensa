@@ -35,7 +35,7 @@
                   "types": [
                     "tk-ex"
                   ],
-                  "value": "some Prerequisites",
+                  "value": "some prerequisites",
                   "parameterTokens": [],
                   "tokens": [
                     [
@@ -63,7 +63,7 @@
                   "types": [
                     "tk-ex"
                   ],
-                  "value": "some Action With",
+                  "value": "some action with",
                   "parameterTokens": [
                     {
                       "types": [
@@ -156,7 +156,7 @@
                   "types": [
                     "tk-ex"
                   ],
-                  "value": "some Prerequisites",
+                  "value": "some prerequisites",
                   "parameterTokens": [],
                   "tokens": [
                     [
@@ -184,7 +184,7 @@
                   "types": [
                     "tk-ex"
                   ],
-                  "value": "some Action",
+                  "value": "some action",
                   "parameterTokens": [
                     {
                       "types": [
@@ -225,7 +225,7 @@
                   "types": [
                     "tk-ex"
                   ],
-                  "value": "some Action",
+                  "value": "some action",
                   "parameterTokens": [
                     {
                       "types": [
@@ -295,7 +295,7 @@
                   "types": [
                     "tk-ex"
                   ],
-                  "value": "Some Prerequisites",
+                  "value": "some prerequisites",
                   "parameterTokens": [],
                   "tokens": [
                     [
@@ -329,7 +329,7 @@
                   "types": [
                     "tk-ex"
                   ],
-                  "value": "Some Action",
+                  "value": "some action",
                   "parameterTokens": [
                     {
                       "types": [
@@ -370,7 +370,7 @@
                   "types": [
                     "tk-ex"
                   ],
-                  "value": "some Action",
+                  "value": "some action",
                   "parameterTokens": [
                     {
                       "types": [

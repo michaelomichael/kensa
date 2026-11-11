@@ -57,7 +57,7 @@
                     "tk-ex",
                     "tk-tab"
                   ],
-                  "value": "the Quoted Rates",
+                  "value": "the quoted rates",
                   "parameterTokens": [],
                   "tokens": [
                     {
@@ -165,7 +165,7 @@
                     "tk-ex",
                     "tk-tab"
                   ],
-                  "value": "the Settlement Windows",
+                  "value": "the settlement windows",
                   "parameterTokens": [],
                   "tokens": [
                     {
@@ -286,7 +286,7 @@
                     "tk-ex",
                     "tk-tab"
                   ],
-                  "value": "the Audit Trail",
+                  "value": "the audit trail",
                   "parameterTokens": [],
                   "tokens": [
                     {
@@ -407,7 +407,7 @@
                     "tk-ex",
                     "tk-tab"
                   ],
-                  "value": "the Cleared Trades",
+                  "value": "the cleared trades",
                   "parameterTokens": [],
                   "tokens": [
                     {
@@ -515,7 +515,7 @@
                     "tk-ex",
                     "tk-tab"
                   ],
-                  "value": "the Unlabelled Rates",
+                  "value": "the unlabelled rates",
                   "parameterTokens": [],
                   "tokens": [
                     {
@@ -619,7 +619,7 @@
                     "tk-ex",
                     "tk-tab"
                   ],
-                  "value": "the Stored Rates",
+                  "value": "the stored rates",
                   "parameterTokens": [],
                   "tokens": [
                     {
